@@ -20,13 +20,13 @@ function IndexPage() {
         ) : (
           <div className="space-y-8">
             <h1 className="font-primary font-extrabold text-white text-3xl sm:text-4xl md:text-5xl md:leading-tight">
-              Easily capture emails on {' '}
+              The best way to make together your DAO {' '}
               <span className="text-palette-primary">
-                Notion.
+                KanKun
               </span>
             </h1>
             <p className="font-secondary text-palette-light text-base md:text-lg lg:text-xl">
-              Capture your customer emails on a beautiful landing page that syncs with your Notion workspace.
+              Get in the waitlist to get notification when we launch the project to production.
             </p>
             <Subscribe setSubscribed={setSubscribed} />
           </div>
